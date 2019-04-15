@@ -6,6 +6,21 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
+
+function OwnerInfo() { 
+
+	info = 'Cześć, jestem Grzegorz' + '\n' +
+			'======' + '\n' +
+			'Imię i nazwisko    :' + 'Grzegorz Roczniak' + '\n' +
+			'Adres email        :' + 'grzegorz.roczniak@o2.pl' + '\n' +
+			'Strona WWW         :' + 'www.niemamstrony.pl' + '\n' +
+			'Nr wydziału        :' + '1212' + '\n' +
+			'Kierunek studiow   :' + 'Informatyka Stosowana' + '\n';
+		
+	navigator.notification.alert(info);
+
+ }
+ 
 function deviceInfo() {
 
 	info =  'Hi, I am your smartphone :-)' + '\n' +
