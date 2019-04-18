@@ -1,0 +1,10 @@
+{
+  "cordova-plugin-internet-status": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-internet-status"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
