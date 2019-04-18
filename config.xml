@@ -13,7 +13,7 @@
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
-    <plugin name="cordova-plugin-internet-status"/>
+    <plugin name="cordova-plugin-internet-status" spec="1.0.0"/>
 
 
 </widget>
