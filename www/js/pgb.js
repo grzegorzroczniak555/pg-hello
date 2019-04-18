@@ -6,6 +6,14 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
+function Internet() {
+	internet.getStatus(function(status) {
+		switch(status) {
+			case internet.CONNECTED: console.log('Podłączony do internetu'); break;
+			case internet.DISCONNECTED: console.log('Brak połączenia z internetem');
+		}
+	 });
+}
 
 function OwnerInfo() { 
 
